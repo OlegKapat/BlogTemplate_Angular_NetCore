@@ -1,0 +1,2 @@
+Add-Migration "Initial migration for Auth" -Context "AuthDbContext"
+Update-Database -Context "AuthDbContext"
